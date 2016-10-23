@@ -17,7 +17,7 @@ namespace TestSolution001
 
 
         [TestInitialize]
-        public void driverInitialize()
+        public void DriverInitialize()
         {
             driver = new ChromeDriver();
             //Move browser to screen on right
@@ -27,7 +27,11 @@ namespace TestSolution001
             webObjects = new WebObjects(driver);
             seleniumLogic = new SeleniumLogic(driver);
         }
-
+        [TestCleanup]
+        public void CleanUp()
+        {
+            driver.Quit();
+        }
         [TestMethod]
         public void CreateAccount_InvalidEmailFormat()
         {
@@ -38,7 +42,7 @@ namespace TestSolution001
 
             webObjects.UseElement("SubmitCreate", 2).Click();
 
-            seleniumLogic.TakeScreenshot("firstTest");
+            seleniumLogic.TakeScreenshot("01Test");
         }
 
 
@@ -52,7 +56,7 @@ namespace TestSolution001
 
             //webObjects.UseElement("SubmitCreate", 2).Click();
 
-            seleniumLogic.TakeScreenshot("secondTest");
+            seleniumLogic.TakeScreenshot("02Test");
         }
 
         [TestMethod]
@@ -65,7 +69,7 @@ namespace TestSolution001
             webObjects.UseElement("passwd", 2).SendKeys("somesink22");
             webObjects.UseElement("SubmitLogin", 2).Click();
 
-            seleniumLogic.TakeScreenshot("thirdTest");
+            seleniumLogic.TakeScreenshot("03Test");
         }
 
         [TestMethod]
@@ -78,7 +82,7 @@ namespace TestSolution001
             webObjects.UseElement("passwd", 2).SendKeys("somesink22");
             webObjects.UseElement("SubmitLogin", 2).Click();
 
-            seleniumLogic.TakeScreenshot("fourthTest");
+            seleniumLogic.TakeScreenshot("04Test");
         }
 
 
@@ -92,7 +96,7 @@ namespace TestSolution001
             webObjects.UseElement("passwd", 2).SendKeys("somesink22");
             //webObjects.UseElement("SubmitLogin", 2).Click();
 
-            seleniumLogic.TakeScreenshot("fifthTest");
+            seleniumLogic.TakeScreenshot("05Test");
         }
     }
 }
