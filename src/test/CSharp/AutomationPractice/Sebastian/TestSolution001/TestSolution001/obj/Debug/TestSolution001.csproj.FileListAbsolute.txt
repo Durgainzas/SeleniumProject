@@ -1,0 +1,12 @@
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\TestSolution001.dll
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\TestSolution001.pdb
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\Logic001.exe
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\WebDriver.dll
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\WebDriver.Support.dll
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\Logic001.pdb
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\WebDriver.xml
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\WebDriver.Support.xml
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\obj\Debug\TestSolution001.csprojResolveAssemblyReference.cache
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\obj\Debug\TestSolution001.dll
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\obj\Debug\TestSolution001.pdb
