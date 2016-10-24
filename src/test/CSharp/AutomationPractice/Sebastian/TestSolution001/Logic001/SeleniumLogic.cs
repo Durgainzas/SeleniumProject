@@ -20,7 +20,7 @@ namespace Logic001
             try
             {
                 Screenshot ss = ((ITakesScreenshot)Driver).GetScreenshot();
-                ss.SaveAsFile(@"C:\Users\sebas\OneDrive\Pictures\Screenshots\Selenium\" + ssName + ".jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+                ss.SaveAsFile(@"C:\Automation\SelScr\" + ssName + ".jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
             }
             catch (Exception e)
             {
