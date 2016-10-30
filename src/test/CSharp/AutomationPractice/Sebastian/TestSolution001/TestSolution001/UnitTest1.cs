@@ -21,11 +21,12 @@ namespace TestSolution001
         {
             driver = new ChromeDriver();
             //Move browser to screen on right
-            //driver.Manage().Window.Position = new System.Drawing.Point(2000, 1);
+            driver.Manage().Window.Position = new System.Drawing.Point(2000, 1);
             driver.Manage().Window.Maximize();
             //Initialize help classes
             webObjects = new WebObjects(driver);
             seleniumLogic = new SeleniumLogic(driver);
+
         }
         //[TestCleanup]
         //public void CleanUp()
@@ -49,13 +50,15 @@ namespace TestSolution001
         [TestMethod]
         public void CreateAccount_Valid()
         {
+            //Initialize wait
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             driver.Url = "http://automationpractice.com/";
 
             webObjects.UseElement("login", 1).Click();
             webObjects.UseElement("email_create", 2).SendKeys("ssautomat@email.cz");
             webObjects.UseElement("SubmitCreate", 2).Click();
 
-            var bckBtn = driver.FindElement(By.Id("id_gender1"));
+            var bckBtn = wait.Until<IWebElement>(d => d.FindElement(By.XPath(".//input[@id='id_gender1']")));
             bckBtn.Click();
 
 

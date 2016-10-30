@@ -17,3 +17,4 @@ C:\Users\Test Processing\Source\Repos\SeleniumProject\src\test\CSharp\Automation
 C:\Users\Test Processing\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\Logic001\bin\Debug\WebDriver.xml
 C:\Users\Test Processing\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\Logic001\bin\Debug\WebDriver.Support.xml
 C:\Users\Test Processing\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\Logic001\obj\Debug\Logic001.csprojResolveAssemblyReference.cache
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\Logic001\obj\Debug\Logic001.csprojResolveAssemblyReference.cache
