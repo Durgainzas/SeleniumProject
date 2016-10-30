@@ -28,11 +28,11 @@ namespace TestSolution001
             seleniumLogic = new SeleniumLogic(driver);
 
         }
-        //[TestCleanup]
-        //public void CleanUp()
-        //{
-        //    driver.Quit();
-        //}
+        [TestCleanup]
+        public void CleanUp()
+        {
+            driver.Quit();
+        }
         [TestMethod]
         public void CreateAccount_InvalidEmailFormat()
         {
