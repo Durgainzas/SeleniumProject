@@ -58,7 +58,7 @@ namespace TestSolution001
             webObjects.UseElement("email_create", 2).SendKeys("ssautomat@email.cz");
             webObjects.UseElement("SubmitCreate", 2).Click();
 
-            IWebElement bckBtn = wait.Until<IWebElement>(d => d.FindElement(By.XPath(".//input[@id='id_gender1']")));
+            var bckBtn = wait.Until<IWebElement>(d => d.FindElement(By.XPath(".//input[@id='id_gender1']")));
             bckBtn.Click();
 
 
