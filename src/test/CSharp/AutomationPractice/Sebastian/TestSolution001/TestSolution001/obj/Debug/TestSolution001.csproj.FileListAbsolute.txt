@@ -22,3 +22,8 @@ C:\Users\Test Processing\Source\Repos\SeleniumProject\src\test\CSharp\Automation
 C:\Users\Test Processing\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\obj\Debug\TestSolution001.csprojResolveAssemblyReference.cache
 C:\Users\Test Processing\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\obj\Debug\TestSolution001.dll
 C:\Users\Test Processing\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\obj\Debug\TestSolution001.pdb
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\Default.srprofile
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\TestSolution001.dll.config
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\SpecRun.SpecFlowPlugin.dll
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\sebas\Source\Repos\SeleniumProject\src\test\CSharp\AutomationPractice\Sebastian\TestSolution001\TestSolution001\bin\Debug\TechTalk.SpecRun.dll
