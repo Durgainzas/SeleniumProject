@@ -1,0 +1,24 @@
+﻿using NUnit.Framework;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+
+namespace NUnit.Tests1
+{
+    [TestFixture]
+    public class TestClass
+    {
+        //ChromeDriver driver = new ChromeDriver();
+
+        [Test]
+        public void TestMethod()
+        {
+            // TODO: Add your test code here
+            Assert.Pass("Your first passing test");
+        }
+    }
+}
